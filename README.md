@@ -2,6 +2,12 @@
 Commandline application for logging machine logon/logoff time into file system. 
 To help people know their working time without opening Windows Event Viewer.
 
+## How to build and run
+1. `mvn clean package`
+2. `java -cp target/officeshift-timestamper-0.0.1-SNAPSHOT.jar io.github.batenzar.Main /home/youhome/output/log false`  
+Note: true=logon, false=logoff
+
+
 ## How to install
 ### For Startup
 1. Ctrl+R
