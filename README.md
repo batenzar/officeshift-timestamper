@@ -1,15 +1,6 @@
 # officeshift-timestamper
-
-## Changelogs
-V2.
-- Choose to log logon/logoff times
-- Add log file to keep all working date
-
-V1.
-- Always log to "D:\Play_projects\log_com_usage\only"
-- Create new folder which contains log file inside
-- Log current time to file
-- Check date inside the file before replacing file content
+Commandline application for logging machine logon/logoff time into file system. 
+To help people know their working time without opening Windows Event Viewer.
 
 ## How to install
 ### For Startup
@@ -34,3 +25,14 @@ or
 5. Click 'Show files ...'
 6. Paste exec_2_logoff.bat into the folder
 7. In Shutdown properties, click 'Add...' and select the 'exec_2_logoff.bat'
+
+## Changelogs
+V2.
+- Choose to log logon/logoff times
+- Add log file to keep all working date
+
+V1.
+- Always log to "D:\log_com_usage\only"
+- Create new folder which contains log file inside
+- Log current time to file
+- Check date inside the file before replacing file content
